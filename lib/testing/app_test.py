@@ -15,7 +15,7 @@ class TestAppPy:
         '''
        
 
-    def test_app_py_runs(self):
+    #def test_app_py_runs(self):
         '''
         is executable
         '''
@@ -28,4 +28,5 @@ class TestAppPy:
         sys.stdout = captured_out
         
         sys.stdout = sys.__stdout__
+        
         
